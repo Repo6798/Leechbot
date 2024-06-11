@@ -40,11 +40,11 @@ bot = Client(
 
 bot_token=Config.BOT_TOKEN
 bot1 = telegram.Bot(token=bot_token)
-channel = f'@HxBots'
-owner = f'@Kirodewal'
-pdf = f'@TxT_DLBot.pdf'
-video = f'@TxT_DLBot.mp4'
-mkv = f'@TxT_DLBot.mkv'
+channel = f'@Z15NE'
+owner = f'@WORLD_OF_RAJ'
+pdf = f'@Z15NE.pdf'
+video = f'۝ 🅼🆁 🆁🅐🅹™ ۝.mp4'
+mkv = f'۝ 🅼🆁 🆁🅐🅹™ ۝.mkv'
 
 @bot.on_message(filters.command(["help"]))
 async def help_handler(bot: Client, m: Message):
@@ -323,8 +323,8 @@ async def account_login(bot: Client, m: Message):
             try:
                 Show = f"**Downloading:-**\n\n**Name »** `{name}`\n**Quality »** `{raw_text2}`\n\n**Url »** `{url}`\n\n"
                 prog = await m.reply_text(Show)
-                cc = f'**File Name »** {name1} {video}\n**Quality »** {raw_text2}'
-                cc1 =f'**File No. »** {str(count).zfill(3)}\n**File Name »** {name1} {pdf}\n'
+                cc = f'**[📕]『𝐈𝐍𝐃𝐄𝐗』➙ {str(count).zfill(3)} \n**『𝐅𝐈𝐋𝐄 𝐍𝐀𝐌𝐄』➙ {name1} {video}\n**『𝐐𝐔𝐀𝐋𝐈𝐓𝐘』➙** {raw_text2}'
+                cc1 =f'**[📗]『𝐈𝐍𝐃𝐄𝐗』➙** {str(count).zfill(3)}\n**『𝐅𝐈𝐋𝐄 𝐍𝐀𝐌𝐄』➙** {name1} {pdf}\n'
                 if cmd == "pdf" or "drive" in url:
                     try:
                         ka=await helper.download(url,name)
@@ -371,7 +371,7 @@ async def account_login(bot: Client, m: Message):
                     time.sleep(1)
 
             except Exception as e:
-                await m.reply_text(f"**downloading failed ❌**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`")
+                await m.reply_text(f"**downloading failed ❌ [ @world_of_raj ] **\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`")
                 continue
 
 
@@ -488,7 +488,7 @@ async def account_login(bot: Client, m: Message):
             name = f'{name1}'    
             Show = f"**Downloading:-**\n\n**Name :-** `{name} {video}`\n\n**Url :-** `{url1}`\n\n"
             prog = await m.reply_text(Show)
-            cc = f'**Title »** {name1}.mkv {video}\n**Batch »** {raw_text0}\n**Index »** {str(count).zfill(3)}'
+            cc = f'**🔹【FILE NAME】➛** {name1}.mkv {video}\n**🔹【BATCH】➛** {raw_text0}\n**🔹【INDEX】➛** {str(count).zfill(3)}'
             if "pdf" in url:
                 cmd = f'yt-dlp -o "{name}.pdf" "{url1}"'
             else:
@@ -530,7 +530,7 @@ async def account_login(bot: Client, m: Message):
                 await reply.delete (True)
                 time.sleep(1)
             except Exception as e:
-                await m.reply_text(f"**downloading failed ❌**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}` & `{url1}`")
+                await m.reply_text(f"**downloading failed ❌[ @world_of_raj ]**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}` & `{url1} \n FREE COURSE🔹@SHIKSHIT_BHARAT`")
                 continue 
     except Exception as e:
         await m.reply_text(e)

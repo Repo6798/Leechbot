@@ -22,7 +22,7 @@
 
 ### Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/Techbotlover/MR-2-TXTVDO-LEECH">
+<a href="https://heroku.com/deploy?template=https://github.com/Techbotlover/MR-22-TXTVDO-LEECH/edit/main/README.md">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
